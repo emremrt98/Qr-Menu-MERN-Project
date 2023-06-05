@@ -1,0 +1,28 @@
+
+.header {
+    &__layout {
+        &__icon {
+            position: relative;
+
+            svg {
+                z-index: 10;
+                position: relative;
+                font-size: 64px;
+                background-color: $main-color;
+                border-radius: 50%;
+                padding: 5px;
+            }
+
+            &::before {
+                content: "";
+                width: 200px;
+                height: 200px;
+                border-radius: 50%;
+                background-color: #fff;
+                position: absolute;
+                left: -25%;
+                top: -50px;
+            }
+        }
+    }
+}
