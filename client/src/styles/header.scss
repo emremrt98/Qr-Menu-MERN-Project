@@ -5,7 +5,7 @@
         &__icon {
             position: relative;
             width: 100px;
-            height: 150px;
+            height: 128px;
             flex: 1 1 50%;
 
             svg {
@@ -27,8 +27,8 @@
                 border-radius: 50%;
                 background-color: $main-color;
                 position: absolute;
-                left: -90%;
-                top: -50px;
+                left: -80%;
+                top: -70px;
             }
         }
 

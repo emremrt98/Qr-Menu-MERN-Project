@@ -1,7 +1,5 @@
 import { BiMenu } from 'react-icons/bi';
 
-
-
 export default function Header() {
     return (
         <div className='header'>
