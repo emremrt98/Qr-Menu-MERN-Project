@@ -8,7 +8,7 @@ Youtube'daki takipçilerim için çekmiş olduğum MERN-STACK proje ürününün
 - Kendi bilgilerimi güncellemek gerekirse yenilerini öğrenmek.
 
 ### Projenin Konu Anlatım Videolarına Nereden Ulaşırım
-Youtube üzerinde hesabım olan Makro Beyin kanalından erişebilirsin. Veya [Bu Linke]([https://www.google.com](https://www.youtube.com/watch?v=lw3nO9agLU0&list=PL08oc4fWsuu8SD9FHooOPsJZlSMgtFrll&ab_channel=MakroBeyin)) tıklayarak doğrudan oynatma listesine ulaşabilirsin.
+Youtube üzerinde hesabım olan Makro Beyin kanalından erişebilirsin. Veya [Bu Linke](https://www.youtube.com/watch?v=lw3nO9agLU0&list=PL08oc4fWsuu8SD9FHooOPsJZlSMgtFrll&ab_channel=MakroBeyin) tıklayarak doğrudan oynatma listesine ulaşabilirsin.
 
 ### Projeyi Nasıl Ayağa Kaldırırım ?
 İndirdiğiniz veya clone yaptığınız proje de hem Client hem Server kısmı için ayrı ayrı terminal ekranından npm install (npm i) yazarak gerekli paketlerin kurulmasını bekleyip ardından da npm start diyerek çalışmayı başlatabilirsiniz.
