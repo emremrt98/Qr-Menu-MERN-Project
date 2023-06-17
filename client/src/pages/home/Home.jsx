@@ -1,9 +1,12 @@
-import Header from "../../components/header/Header"
+import React from "react";
+import Header from "../../components/header/Header";
+import Menu from "../../components/home/Menu";
 
 export default function Home() {
   return (
-    <div>
+    <React.Fragment>
       <Header />
-    </div>
+      <Menu />
+    </React.Fragment>
   )
 }
