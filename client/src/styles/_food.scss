@@ -1,0 +1,63 @@
+.tab-menu {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    &::after {
+        width: 100%;
+        height: 1px;
+        background-color: #fff;
+    }
+
+    &::after,
+    &::before {
+        content: "";
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+
+    &::before {
+        width: 25%;
+        height: 2px;
+        background-color: $main-color;
+    }
+
+    label {
+        color: #fff;
+    }
+}
+
+#ana-yemek:checked~.tab-menu #main-food,
+#ara-yemek:checked~.tab-menu #snack,
+#icecek:checked~.tab-menu #drinks,
+#tatli:checked~.tab-menu #dessert {
+    color: $main-color;
+}
+
+
+
+.food {
+
+    margin: 20px 20px 0;
+
+    &>div {
+
+        color: #fff;
+    }
+
+    .menus {
+        margin-top: 30px;
+
+        &>div {
+            display: none;
+        }
+    }
+}
+
+#ana-yemek:checked~.menus .main-food,
+#ara-yemek:checked~.menus .snack,
+#icecek:checked~.menus .drinks,
+#tatli:checked~.menus .dessert {
+    display: block;
+}

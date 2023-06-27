@@ -1,11 +1,11 @@
-.menu{
+.menu {
     color: #fff;
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
     padding: 20px;
 
-    &__item{
+    &__item {
         background-image: url(../../public/assets/image/ana_yemek.svg);
         background-position: center;
         background-repeat: no-repeat;
@@ -15,7 +15,7 @@
         border-radius: $radius*2;
         position: relative;
 
-        &::before{
+        &::before {
             content: "";
             position: absolute;
             width: 100%;
@@ -23,7 +23,7 @@
             background-color: #21252973;
         }
 
-        &__header{
+        &__header {
             position: absolute;
             top: 50%;
             left: 50%;
@@ -31,7 +31,7 @@
             font-weight: bold;
             font-size: 24px;
 
-            &--font-32{
+            &--font-32 {
                 font-size: 32px;
             }
         }
