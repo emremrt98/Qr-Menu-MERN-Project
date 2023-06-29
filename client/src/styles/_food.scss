@@ -28,15 +28,6 @@
     }
 }
 
-#ana-yemek:checked~.tab-menu #main-food,
-#ara-yemek:checked~.tab-menu #snack,
-#icecek:checked~.tab-menu #drinks,
-#tatli:checked~.tab-menu #dessert {
-    color: $main-color;
-}
-
-
-
 .food {
 
     margin: 20px 20px 0;
@@ -48,16 +39,5 @@
 
     .menus {
         margin-top: 30px;
-
-        &>div {
-            display: none;
-        }
     }
-}
-
-#ana-yemek:checked~.menus .main-food,
-#ara-yemek:checked~.menus .snack,
-#icecek:checked~.menus .drinks,
-#tatli:checked~.menus .dessert {
-    display: block;
 }
