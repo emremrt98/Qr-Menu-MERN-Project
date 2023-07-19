@@ -52,6 +52,38 @@
     .menus {
         margin-top: 30px;
     }
+
+    &__card {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-radius: 6px 6px 0 0;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: $main-color;
+        padding: 20px;
+
+        div {
+            color: $text-color;
+            font-weight: 600;
+        }
+
+        &__price-header {
+            font-size: 13px;
+        }
+
+        &__price {
+            font-size: 20px;
+        }
+
+        &__direct-card {
+            a {
+                color: $text-color;
+            }
+        }
+    }
 }
 
 
@@ -61,7 +93,7 @@
     display: flex;
     flex-direction: column;
     gap: 20px;
-    
+
     &__item {
         display: flex;
         align-items: center;
@@ -70,6 +102,10 @@
         background-color: #fff;
         border-radius: 6px;
         overflow: hidden;
+
+        &:last-of-type{
+            margin-bottom: 80px;
+        }
 
         &__price {
             position: absolute;
