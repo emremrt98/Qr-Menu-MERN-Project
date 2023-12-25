@@ -3,6 +3,7 @@ import cors from 'cors'
 import dotenv from 'dotenv';
 
 import { connection } from './db/connection.js';
+import router from './routes/foodRoutes.js';
 
 
 dotenv.config();
@@ -17,14 +18,7 @@ try {
 
 app.use(cors());
 
-app.get("/", (req, res) => {
-    res.status(200).send({
-        statusCode: 200,
-        succeded: true,
-        message: 'Anasayfa',
-
-    })
-})
+app.use("/", router);
 
 app.listen(process.env.PORT || 5000, () => {
     console.log(`Server ${process.env.PORT} adresinden çalışmaya başladı. http://localhost:${process.env.PORT}/`)
